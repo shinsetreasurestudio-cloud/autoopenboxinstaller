@@ -63,6 +63,11 @@ print_status "Actualizando sistema..."
 apt upgrade -y
 check_error "Actualización del sistema"
 
+# Agregar repositorio para temas Materia
+print_status "Agregando repositorio para temas Materia..."
+echo 'deb http://deb.debian.org/debian bookworm main' > /etc/apt/sources.list.d/bookworm.list
+apt update
+
 # Instalar programas base 
 print_status "Instalando paquetes base..."
 programas=(
@@ -93,7 +98,6 @@ programas=(
     volumeicon-alsa
     blueman
     lxpolkit
-    mlocate
     scrot
     viewnior
     pavucontrol
@@ -109,7 +113,7 @@ programas=(
     xfce4-screenshooter
     numix-gtk-theme
     numix-icon-theme
-    materia-gtk-theme
+    materia-gtk-theme-common  # Nombre corregido del paquete
     breeze-cursor-theme
 )
 
