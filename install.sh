@@ -113,7 +113,7 @@ programas=(
     xfce4-screenshooter
     numix-gtk-theme
     numix-icon-theme
-    materia-gtk-theme-common  # Nombre corregido del paquete
+    gnome-themes-extra  # Nombre corregido del paquete
     breeze-cursor-theme
 )
 
