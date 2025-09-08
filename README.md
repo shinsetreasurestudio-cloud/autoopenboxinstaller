@@ -2,6 +2,7 @@
 #g̶o̶o̶d̶ f̶o̶r̶ h̶e̶a̶l̶t̶h̶,̶ b̶a̶d̶ f̶o̶r̶ e̶d̶u̶c̶a̶t̶i̶o̶n̶
 
 autoinstall script for openbox
+
 #Descripción
 script de autoinstalacion de programas y habilitacion de repos para openbox v1.0
 este es un script de instalacion automatica para openbox en debian 13 "trixie"
