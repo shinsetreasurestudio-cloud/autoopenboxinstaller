@@ -11,8 +11,11 @@ este script incluye la habilitacion de flatpak en cualquier caso de no parecerte
 
 # Comandos para instalar/configurar
 git clone [url-del-repositorio]
+
 cd [directorio-del-proyecto]
+
 chmod +x install.sh
+
 sudo ./install.sh
 
 # Licencia:
