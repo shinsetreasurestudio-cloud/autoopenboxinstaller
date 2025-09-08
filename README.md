@@ -8,12 +8,11 @@ script de autoinstalacion de programas y habilitacion de repos para openbox v1.0
 este es un script de instalacion automatica para openbox en debian 13 "trixie"
 este script incluye la habilitacion de flatpak en cualquier caso de no parecerte conveniente simplemente edita el script haciendo un fork
 
-Instalación:
-bash
+
 # Comandos para instalar/configurar
 git clone [url-del-repositorio]
 cd [directorio-del-proyecto]
-chmod +x script.py
+chmod +x install.sh
 sudo ./install.sh
 
 # Licencia:
