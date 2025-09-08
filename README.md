@@ -13,13 +13,7 @@ bash
 git clone [url-del-repositorio]
 cd [directorio-del-proyecto]
 chmod +x script.py
-Uso
-bash
-./script.py [parámetros]
-Ejemplos de uso:
-
-bash
-./script.py --input archivo.txt --output resultado.txt
+sudo ./install.sh
 Licencia:
 
 Este software se distribuye bajo la licencia GPLv2 (GNU General Public License v2.0)
